@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMLedChroma.Service", "CMLedChroma.Service\CMLedChroma.Service.csproj", "{A403E4E1-03ED-438D-979C-F1D6C0A34B32}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMLedChroma.Service", "CMLedChroma.Service\CMLedChroma.Service.csproj", "{A403E4E1-03ED-438D-979C-F1D6C0A34B32}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CMLedChroma.Setup", "CMLedChroma.Setup\CMLedChroma.Setup.vdproj", "{B7C327AD-7996-493F-AF10-5F765490D2E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,13 @@ Global
 		{A403E4E1-03ED-438D-979C-F1D6C0A34B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A403E4E1-03ED-438D-979C-F1D6C0A34B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A403E4E1-03ED-438D-979C-F1D6C0A34B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C327AD-7996-493F-AF10-5F765490D2E1}.Debug|Any CPU.ActiveCfg = Debug
+		{B7C327AD-7996-493F-AF10-5F765490D2E1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {119436C5-F12F-4787-8BE3-4293112F4E27}
 	EndGlobalSection
 EndGlobal
