@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-CMLedChroma.Service-292AC349-829C-44EF-B5DB-0D1E38814C9B</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ChromaBroadcastSDK.NET" Version="1.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+        <PackageReference Include="Sander0542.CMLedController" Version="1.2.0" />
+    </ItemGroup>
+</Project>
